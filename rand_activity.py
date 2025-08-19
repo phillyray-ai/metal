@@ -16,7 +16,7 @@ def get_random_activity() -> Tuple[int, str]:
     # Define activity thresholds and their associated tasks
     ranges_to_tasks = [
         (range(1, 101), "run"),
-        (range(101, 251), "walk"),
+        (range(101, 251), "break dance"),
         (range(251, 501), "weights"),
         (range(501, 1001), "golf"),
     ]
